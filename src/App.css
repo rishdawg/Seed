@@ -7,3 +7,12 @@
 .fullheight{
   height: 100%;
 }
+.fullwidth{
+  width: 100%;
+}
+.block{
+  display: block;
+}
+.font-small{
+  font-size: .4em;
+}

@@ -6,6 +6,7 @@ import Home from './components/Home.js';
 import AboutUS from './components/AboutUS.js';
 import Objectives from './components/Objectives.js';
 import Curriculum from './components/Curriculum.js';
+import Contact from './components/Contact.js';
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
         <AboutUS/>
         <Objectives/>
         <Curriculum/>
+        <Contact/>
       </div>
     );
   }
