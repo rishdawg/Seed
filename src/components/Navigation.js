@@ -20,7 +20,7 @@ export default class Navigation extends React.Component {
         <Navbar id="mainNav" light toggleable>
           <NavbarBrand href="/">Seed Money Movement</NavbarBrand>
           <NavbarToggler right onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <Collapse id="navbarResponsive" isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="#g">Our Goals</NavLink>
