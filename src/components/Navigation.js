@@ -18,8 +18,8 @@ export default class Navigation extends React.Component {
     return (
       <div>
         <Navbar id="mainNav" light toggleable>
-          <NavbarToggler right onClick={this.toggle} />
           <NavbarBrand href="/">Seed Money Movement</NavbarBrand>
+          <NavbarToggler right onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
