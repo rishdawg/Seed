@@ -8,7 +8,9 @@ import Objectives from './components/Objectives.js';
 import Curriculum from './components/Curriculum.js';
 import Contact from './components/Contact.js';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.css';
+import './freelancer.min.css';
+import './font-awesome.min.css';
 class App extends Component {
   render() {
     return (

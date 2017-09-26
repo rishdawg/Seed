@@ -17,20 +17,32 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div>
-      <Navbar color="faded" light toggleable>
-         <NavbarToggler right onClick={this.toggle} />
-         <NavbarBrand href="/">reactstrap</NavbarBrand>
-         <Collapse isOpen={this.state.isOpen} navbar>
-           <Nav className="ml-auto" navbar>
-             <NavItem>
-               <NavLink href="/components/">Components</NavLink>
-             </NavItem>
-             <NavItem>
-               <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
-             </NavItem>
-           </Nav>
-         </Collapse>
-       </Navbar>
+        <Navbar id="mainNav" light toggleable>
+          <NavbarBrand href="/">Seed Money Movement</NavbarBrand>
+          <NavbarToggler right onClick={this.toggle} />
+          <Collapse id="navbarResponsive" isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink href="#g">Our Goals</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#n">Numbers</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#abt"> About Us</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#obj">Objectives</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#curr">Curriculum</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#con">Contact Us</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
       </div>
     );
   }
