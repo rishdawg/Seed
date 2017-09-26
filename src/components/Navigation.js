@@ -16,7 +16,7 @@ export default class Navigation extends React.Component {
   }
   render() {
     return (
-      <div className="container">
+      <div>
         <Navbar id="mainNav" className="navbar navbar-toggleable navbar-light">
           <NavbarBrand href="/">Seed Money Movement</NavbarBrand>
           <NavbarToggler right onClick={this.toggle} />
