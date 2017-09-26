@@ -17,11 +17,11 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar id="mainNav" light toggleable>
+        <Navbar id="mainNav" className="navbar navbar-toggleable navbar-light">
           <NavbarBrand href="/">Seed Money Movement</NavbarBrand>
           <NavbarToggler right onClick={this.toggle} />
-          <Collapse id="navbarResponsive" isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+          <Collapse className="navbar-collapse" id="navbarResponsive" isOpen={this.state.isOpen}>
+            <Nav className="ml-auto navbar-nav" >
               <NavItem>
                 <NavLink href="#g">Our Goals</NavLink>
               </NavItem>
