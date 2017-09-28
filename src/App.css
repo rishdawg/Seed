@@ -16,3 +16,6 @@
 .font-small{
   font-size: .4em;
 }
+.navbar-toggleable-lg{
+  white-space: nowrap;
+}
